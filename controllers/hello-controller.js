@@ -1,7 +1,7 @@
 const HelloController = (app) => {
-    app.get('/hello', (req, res) => {res.send('Mic testing 1 2 3...')})
+    app.get('/hello', (req, res) => {res.send('Life is good!')})
 
-    app.get('/', (req, res) => {res.send('Health check 200')})
+    app.get('/', (req, res) => {res.send('Welcome to Full Stack Development - a9!')})
 }
 
 export default HelloController;
